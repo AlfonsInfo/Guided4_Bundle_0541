@@ -16,11 +16,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        nama = findViewById(R.id.etName)
-        nim = findViewById(R.id.etNIM)
-        fakultas = findViewById(R.id.etFakultas)
-        prodi = findViewById(R.id.etProgramStudi)
-        btnRegister = findViewById(R.id.register)
+        nama = findViewById(R.id.teNama)
+        nim = findViewById(R.id.teNIM)
+        fakultas = findViewById(R.id.teFakultas)
+        prodi = findViewById(R.id.teProdi)
+        btnRegister = findViewById(R.id.Register)
 
         btnRegister.setOnClickListener{
             val intent = Intent(this, NextActivity::class.java)
